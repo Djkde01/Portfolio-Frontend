@@ -10,15 +10,15 @@
 .header-logo img {
   height: 90px;
 }
-ul {
+.header-menu--list {
   padding: 0;
   list-style: none;
   width: 600px;
 }
-li {
+.header-menu--item {
   display: table-cell;
 }
-a {
+.header-menu--item a {
   color: var(--light);
   text-transform: uppercase;
   text-decoration: none;
@@ -26,7 +26,7 @@ a {
   display: inline-block;
   padding: 0px 33px;
 }
-a:after {
+.header-menu--item a:after {
   bottom: 0;
   content: "";
   display: block;
@@ -36,7 +36,7 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after {
+.header-menu--item a:hover:after {
   width: 100%;
   left: 0;
 }
