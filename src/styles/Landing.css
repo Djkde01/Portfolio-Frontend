@@ -1,0 +1,16 @@
+.main-landing {
+  display: grid;
+  position: fixed;
+  top: 110px;
+  bottom: 110px;
+  left: 0;
+  right: 0;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.main-landing h1 {
+  font-size: 96px;
+  font-weight: 700;
+  color: var(--dark);
+}

@@ -1,15 +1,13 @@
-import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Button from './components/Button';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Landing from './pages/Landing';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header/>
-      <Button text="Know my work" link="/"/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Landing}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
