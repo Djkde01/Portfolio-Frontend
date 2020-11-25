@@ -2,15 +2,13 @@ import React from 'react'
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Skill from '../components/Skill';
-
-import icon from '../assets/media/LogoVectorWhite.svg';
+import SkillsList from '../components/SkillsList';
 
 const About = () => {
     return (
         <div>
            <Header/>
-           <Skill skillIcon={icon} skillName="React.js"/>
+           <SkillsList/>
            <Footer/>
         </div>
     )
