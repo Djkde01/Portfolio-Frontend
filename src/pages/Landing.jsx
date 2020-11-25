@@ -11,7 +11,7 @@ const Landing = () => {
             <Header/>
             <main className="main-landing">
             <h1>Let’s create something together!</h1>
-            <Button text="Know my work" link="/" type="principal" color="alternative"/>
+            <Button text="Know my work" link="/about" type="principal" color="alternative"/>
             </main>
         </div>
     )

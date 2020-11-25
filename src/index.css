@@ -18,6 +18,12 @@ body {
   --second-light: #f0d6b5;
   --second-lightest: #f3ece3;
 
+  --third: #92929d;
+  --third-dark: #666675;
+  --third-darkest: #3a3a4e;
+  --third-light: #d3d3d8;
+  --third-lightest: #e9e9eb;
+
   --alternative1: #16bac5;
   --alternative2: #45050c;
 
