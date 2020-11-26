@@ -1,0 +1,15 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 24px;
+  width: 80%;
+  margin: 44px auto;
+  color: var(--dark);
+}
+.hero-image {
+  height: 437px;
+}
+.hero-info-phrase {
+  font-style: italic;
+  color: var(--alternative1);
+}

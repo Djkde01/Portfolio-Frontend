@@ -11,6 +11,9 @@
   background-color: var(--third-darkest);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
+.skill-icon-image {
+  height: 150px;
+}
 .skill-name {
   margin: 0;
   color: var(--dark);
