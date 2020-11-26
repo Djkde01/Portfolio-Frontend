@@ -1,0 +1,19 @@
+.rolecard {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  width: 437px;
+  padding: 24px 18px;
+  border-radius: 30px;
+  background-color: var(--third);
+  color: var(--white);
+}
+.rolecard-image {
+  height: 150px;
+  background-color: var(--third-darkest);
+}
+.rolecard-image img {
+  height: 150px;
+}
+.rolecard-description > * {
+  margin: 0 26px 8px;
+}
