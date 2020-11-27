@@ -1,20 +1,40 @@
-.skill-container {
+.skill-container-big {
   display: flex;
   width: 150px;
   align-items: center;
   flex-direction: column;
 }
-.skill-icon {
+.skill-icon-big {
   width: 150px;
   height: 150px;
   border-radius: 20px;
   background-color: var(--third-darkest);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-.skill-icon-image {
+.skill-icon-image-big {
   height: 150px;
 }
-.skill-name {
+.skill-name-big {
   margin: 0;
   color: var(--dark);
+}
+
+.skill-container-small {
+  display: flex;
+  width: 60px;
+  align-items: center;
+  flex-direction: column;
+}
+.skill-icon-small {
+  width: 60px;
+  height: 60px;
+  background-color: var(--alternative1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.skill-icon-image-small {
+  height: 60px;
+}
+.skill-name-small {
+  margin: 0;
+  color: var(--light);
 }

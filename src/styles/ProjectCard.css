@@ -1,0 +1,29 @@
+.projectcard {
+  width: 666px;
+  display: grid;
+  grid-template-rows: 300px 1fr 1fr;
+}
+.projectcard-image {
+  height: 300px;
+  background-color: var(--third);
+}
+.projectcard-image img {
+  width: 666px;
+  object-fit: cover;
+}
+.projectcard-description,
+.projectcard-skills {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectcard-description {
+  justify-content: space-between;
+  margin: 16px auto 32px;
+}
+.projectcard-skills {
+  gap: 40px;
+  margin: 0 auto 28px;
+}
