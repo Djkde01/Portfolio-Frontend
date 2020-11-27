@@ -1,10 +1,10 @@
-.skills-list {
-  width: 80%;
+.roles-list {
+  width: 90%;
   margin: 10px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 80px;
+  gap: 23px;
   justify-content: center;
   margin-bottom: 80px;
 }

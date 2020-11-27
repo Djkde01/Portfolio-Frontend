@@ -4,17 +4,24 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SkillsList from '../components/SkillsList';
 import AboutHero from '../components/AboutHero';
-import RoleCard from '../components/RoleCard';
+import RolesList from '../components/RolesList';
+import Button from '../components/Button';
 
-import icon from '../assets/media/atomo.svg';
+import '../styles/About.css';
 
 const About = () => {
     return (
         <div>
            <Header/>
            <AboutHero/>
+           <h2>My Skills</h2>
            <SkillsList/>
-           <RoleCard roleImage={icon} roleName="Front-end Developer" roleDescription="Short description about that technology and my projects"/>
+           <h2>I can help you with</h2>
+           <RolesList/>
+           <div className="skills-list">
+               <Button text="See my projects" link="/about" type="principal" color="primary"/>
+               <Button text="Contact me" link="/about" type="principal" color="primary"/>
+           </div>
            <Footer/>
         </div>
     )

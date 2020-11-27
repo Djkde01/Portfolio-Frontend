@@ -5,11 +5,13 @@
     color 0.5s ease 0s, left 0.5s ease 0s;
   text-decoration: none;
   display: inline-block;
+  text-align: center;
 }
 .first-primary,
 .first-secondary,
 .first-alternative {
-  padding: 28px 75px;
+  padding-top: 28px;
+  height: 72px;
   border-radius: 20px;
   font-size: 36px;
   width: 430px;
@@ -39,7 +41,9 @@
 .second-primary,
 .second-secondary,
 .second-alternative {
-  padding: 11px 16px;
+  padding-top: 11px;
+  height: 33px;
+  width: 150px;
   border-radius: 20px;
   font-weight: 500;
   font-size: 18px;
