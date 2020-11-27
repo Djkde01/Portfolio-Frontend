@@ -3,6 +3,8 @@ import React from 'react'
 import Button from './Button'
 import Skill from './Skill'
 
+import '../styles/ProjectCard.css';
+
 const ProjectCard = () => {
     return (
         <div className="projectcard">

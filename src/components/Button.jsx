@@ -15,7 +15,7 @@ const Button = ({text, link, type, color}) => {
     }
     else{
         return (
-            <button className="button" type="button">{text}</button>
+            <button className={`button  ${typeOfButton}-${color}`} type="button">{text}</button>
             )
         }
 }

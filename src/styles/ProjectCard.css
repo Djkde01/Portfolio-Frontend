@@ -1,7 +1,8 @@
 .projectcard {
   width: 666px;
   display: grid;
-  grid-template-rows: 300px 1fr 1fr;
+  grid-template-rows: 300px auto auto;
+  background-color: var(--third-darkest);
 }
 .projectcard-image {
   height: 300px;
@@ -18,12 +19,27 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 .projectcard-description {
-  justify-content: space-between;
-  margin: 16px auto 32px;
+  align-items: center;
+  gap: 16px;
+  margin: 16px auto;
+  color: var(--light);
 }
 .projectcard-skills {
   gap: 40px;
   margin: 0 auto 28px;
+}
+@media (max-width: 375px) {
+  .projectcard {
+    grid-template-rows: 150px auto auto;
+  }
+  .projectcard,
+  .projectcard-image img {
+    width: 335px;
+  }
+  .projectcard-image {
+    height: 150px;
+  }
 }

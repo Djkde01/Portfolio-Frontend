@@ -3,7 +3,7 @@ import React from 'react'
 import '../styles/Skill.css'
 
 const Skill = ({skillIcon, skillName, type}) => {
-    if (type===big){
+    if (type==="big"){
         return (
             <div className="skill-container-big">
                 <span className="skill-icon-big">

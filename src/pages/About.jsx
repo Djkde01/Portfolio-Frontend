@@ -13,15 +13,17 @@ const About = () => {
     return (
         <div>
            <Header/>
-           <AboutHero/>
-           <h2>My Skills</h2>
-           <SkillsList/>
-           <h2>I can help you with</h2>
-           <RolesList/>
-           <div className="skills-list">
-               <Button text="See my projects" link="/about" type="principal" color="primary"/>
-               <Button text="Contact me" link="/about" type="principal" color="primary"/>
-           </div>
+           <main>
+            <AboutHero/>
+            <h2>My Skills</h2>
+            <SkillsList/>
+            <h2>I can help you with</h2>
+            <RolesList/>
+            <div className="skills-list">
+                <Button text="See my projects" link="/projects" type="principal" color="primary"/>
+                <Button text="Contact me" link="/about" type="principal" color="primary"/>
+            </div>
+           </main>
            <Footer/>
         </div>
     )
