@@ -8,3 +8,8 @@
   justify-content: center;
   margin-bottom: 80px;
 }
+@media (max-width: 375px) {
+  .skills-list {
+    width: 90%;
+  }
+}

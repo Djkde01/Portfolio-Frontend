@@ -11,3 +11,9 @@
   display: inline;
   margin: 0 20px;
 }
+@media (max-width: 375px) {
+  .footer p {
+    display: block;
+    margin: 20px 0;
+  }
+}

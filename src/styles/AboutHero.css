@@ -13,3 +13,15 @@
   font-style: italic;
   color: var(--alternative1);
 }
+@media (max-width: 834px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 375px) {
+  .hero-image {
+    height: 219px;
+  }
+}

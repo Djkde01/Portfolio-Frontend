@@ -9,6 +9,7 @@
 }
 .rolecard-image {
   height: 150px;
+  width: 150px;
   background-color: var(--third-darkest);
 }
 .rolecard-image img {
@@ -16,4 +17,15 @@
 }
 .rolecard-description > * {
   margin: 0 20px 8px;
+}
+@media (max-width: 375px) {
+  .rolecard {
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr;
+    justify-items: center;
+  }
+  .rolecard-description > h5 {
+    margin: 8px 16px;
+    text-align: center;
+  }
 }
