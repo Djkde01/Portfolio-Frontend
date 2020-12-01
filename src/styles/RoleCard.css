@@ -18,7 +18,7 @@
 .rolecard-description > * {
   margin: 0 20px 8px;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .rolecard {
     grid-template-columns: 1fr;
     grid-template-rows: 150px 1fr;

@@ -14,3 +14,8 @@
   font-weight: 700;
   color: var(--dark);
 }
+@media (max-width: 414px) {
+  .main-landing h1 {
+    font-size: 44px;
+  }
+}

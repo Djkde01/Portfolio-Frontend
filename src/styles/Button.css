@@ -59,3 +59,14 @@
   background-color: var(--alternative1);
   color: var(--light);
 }
+@media (max-width: 414px) {
+  .first-primary,
+  .first-secondary,
+  .first-alternative {
+    padding-top: 19px;
+    height: 41px;
+    padding: auto;
+    font-size: 18px;
+    width: 60%;
+  }
+}
