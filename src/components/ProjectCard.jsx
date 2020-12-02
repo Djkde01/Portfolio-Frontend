@@ -9,7 +9,7 @@ const ProjectCard = () => {
     return (
         <div className="projectcard">
             <span className="projectcard-image">
-                <img/>
+                <img alt="Project overview"/>
             </span>
             <div className="projectcard-description">
                 <h3>Project Name</h3>

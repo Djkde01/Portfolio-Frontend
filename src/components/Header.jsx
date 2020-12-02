@@ -26,13 +26,10 @@ const Header = () => {
                         <Link to="/about" onClick={closeMobileMenu}>About</Link>
                     </li>
                     <li className="header-menu--item">
-                        <Link to="/">Content</Link>
-                    </li>
-                    <li className="header-menu--item">
                         <Link to="/projects">Projects</Link>
                     </li>
                     <li className="header-menu--item">
-                        <Link to="/">Contact</Link>
+                        <a href="mailto:me@djkde.com">Contact</a>
                     </li>
                 </ul>
             <div className={click ? "pencet Diam" : "pencet"} onClick={handleClick}>

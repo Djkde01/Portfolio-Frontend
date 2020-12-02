@@ -8,15 +8,14 @@ import Projects from './pages/Projects';
 
 export default withRouter (function App ({ location }) { 
   const [currentPath, setCurrentPath] = useState(location.pathname);
-
+  
   const [ position, setPosition ] = useState("down");
-
+  
   useEffect(() => {
     const { pathname } = location;
     if (pathname !== currentPath){
       setPosition("up")
     }
-    console.log("New path:", pathname, "Previous path: ", currentPath);
     setCurrentPath(pathname);
     setTimeout(function(){setPosition("down")},2000);
   }, [location.pathname]);
