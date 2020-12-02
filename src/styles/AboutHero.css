@@ -5,9 +5,10 @@
   width: 80%;
   margin: 44px auto;
   color: var(--dark);
+  align-items: center;
 }
 .hero-image {
-  height: 437px;
+  height: 370px;
 }
 .hero-info-phrase {
   font-style: italic;
