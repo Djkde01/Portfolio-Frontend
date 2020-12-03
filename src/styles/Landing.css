@@ -1,24 +1,37 @@
 .main-landing {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   position: fixed;
-  top: 110px;
-  bottom: 110px;
+  top: 150px;
+  bottom: 0px;
   left: 0;
   right: 0;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: var(--dark);
+  background-image: url("../assets/media/landing-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-landing h1 {
   font-size: 96px;
   font-weight: 700;
   margin-bottom: 0;
+  text-shadow: 1px 1px 2px var(--light), 0 0 1em var(--light),
+    0 0 0.2em var(--light);
 }
 .main-landing h4 {
   font-size: 34px;
   font-weight: 800;
   margin-top: 10px;
+  text-shadow: 1px 1px 2px var(--light), 0 0 1em var(--light),
+    0 0 0.2em var(--light);
+}
+@media (max-width: 834px) {
+  .main-landing {
+    top: 78px;
+  }
 }
 @media (max-width: 414px) {
   .main-landing h1 {
