@@ -8,6 +8,7 @@ import RolesList from '../components/RolesList';
 import Button from '../components/Button';
 
 import '../styles/About.css';
+import data from '../data.js';
 
 const About = () => {
     return (
@@ -16,9 +17,9 @@ const About = () => {
            <main>
             <AboutHero/>
             <h2>I can help you with</h2>
-            <RolesList/>
+            <RolesList roles={data.roles}/>
             <h2>My Skills</h2>
-            <SkillsList/>
+            <SkillsList skills={data.skills}/>
             <h2>We make your project come true together?</h2>
             <div className="skills-list">
                 <Button text="See my projects" link="/projects" type="principal" color="primary"/>

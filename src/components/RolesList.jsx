@@ -5,12 +5,14 @@ import RoleCard from './RoleCard';
 import icon from '../assets/media/atomo.svg';
 import '../styles/RolesList.css';
 
-const RolesList = () => {
+const RolesList = ({roles}) => {
     return (
         <div className="roles-list">
-            <RoleCard roleImage={icon} roleName="Front-end Developer" roleDescription="Short description about that technology and my projects"/>
-            <RoleCard roleImage={icon} roleName="Front-end Developer" roleDescription="Short description about that technology and my projects"/>
-            <RoleCard roleImage={icon} roleName="Front-end Developer" roleDescription="Short description about that technology and my projects"/>
+        {
+            roles.map((role)=>(
+                <RoleCard key={role._id} roleImage={role.icon} roleName={role.name} roleDescription={role.description}/>
+            ))
+        }
         </div>
     )
 }

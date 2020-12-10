@@ -3,14 +3,14 @@ const data = {
         {
             _id:'1',
             name:'Design',
-            description:'I design beatiful and simple things. Focused on the user and the message of your brand or product.<br/>Things I enjoy designing: UX, UI, Web, Mobile, Logos.',
-            icon:'/assets/icons/design.svg'
+            description:"I design beatiful and simple things.\nFocused on the user and the message of your brand or product.\r Things I enjoy designing: UX, UI, Web, Mobile, Logos.",
+            icon:'/assets/icons/design.svg',
         },
         {
             _id:'2',
             name:'Development',
-            description:'I can help you to bring your product idea into reality.<br/>Offering to you services of development, integration, deployment, analytics, and maintenance.',
-            icon:'/assets/icons/frontend.svg'
+            description:'I can help you to bring your product idea into reality.\nOffering to you services of development, integration, deployment, analytics, and maintenance.',
+            icon:'/assets/icons/frontend.svg',
         },
     ],
     skills :[
@@ -28,7 +28,7 @@ const data = {
         {
             _id:'3',
             name: 'React.js',
-            image: '/assets/icons/react.svg',
+            image: './assets/icons/react.svg',
         },
         {
             _id:'4',

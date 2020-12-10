@@ -10,9 +10,12 @@
   border-radius: 20px;
   background-color: var(--third-darkest);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skill-icon-image-big {
-  height: 150px;
+  height: 130px;
 }
 .skill-name-big {
   margin: 0;
@@ -30,9 +33,12 @@
   height: 60px;
   background-color: var(--alternative1);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skill-icon-image-small {
-  height: 60px;
+  height: 40px;
 }
 .skill-name-small {
   margin: 0;

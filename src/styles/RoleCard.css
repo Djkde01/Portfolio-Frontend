@@ -11,9 +11,12 @@
   height: 150px;
   width: 150px;
   background-color: var(--third-darkest);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .rolecard-image img {
-  height: 150px;
+  height: 130px;
 }
 .rolecard-description > * {
   margin: 0 20px 8px;

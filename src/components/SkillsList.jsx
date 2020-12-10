@@ -5,23 +5,14 @@ import icon from '../assets/media/atomo.svg';
 
 import '../styles/SkillsList.css';
 
-const SkillsList = () => {
+const SkillsList = ({skills}) => {
     return (
         <div className="skills-list">
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
-            <Skill skillIcon={icon} skillName="React.js" type="big"/>
+        {
+            skills.map((skill)=>(
+                <Skill key={skill._id} skillIcon={skill.image} skillName={skill.name} type="big"/>
+            ))
+        }
         </div>
     )
 }

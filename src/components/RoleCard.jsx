@@ -6,7 +6,7 @@ const RoleCard = ({roleImage, roleName, roleDescription}) => {
     return (
         <div className="rolecard">
             <span className="rolecard-image">
-                <img scr={roleImage} alt="Technology icon"/>
+                <img src={roleImage} alt="Technology icon"/>
             </span>
             <div className="rolecard-description">
                 <h5>
