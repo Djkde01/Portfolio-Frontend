@@ -10,7 +10,7 @@ const Landing = () => {
         <div>
             <Header/>
             <main className="main-landing">
-            <h1>Hi! I’m Sergio Estrella!</h1>
+            <h1>Hi! I’m <span className="main-name">Sergio Estrella</span></h1>
             <h4>I build digital products, using web technologies</h4>
             <Button text="Know my work" link="/about" type="principal" color="alternative"/>
             </main>

@@ -28,6 +28,11 @@
   text-shadow: 1px 1px 2px var(--light), 0 0 1em var(--light),
     0 0 0.2em var(--light);
 }
+.main-name {
+  color: var(--second);
+  text-shadow: 1px 1px 2px var(--third-darkest), 0 0 1em var(--third-darkest),
+    0 0 0.2em var(--third-darkest);
+}
 @media (max-width: 834px) {
   .main-landing {
     top: 78px;

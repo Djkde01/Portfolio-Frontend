@@ -23,7 +23,7 @@ const data = {
         {
             _id:'2',
             name: 'CSS',
-            image: '/assets/icons/',
+            image: '/assets/icons/css.svg',
         },
         {
             _id:'3',
@@ -43,7 +43,7 @@ const data = {
         {
             _id:'6',
             name: 'Figma',
-            image: '/assets/icons/.svg',
+            image: '/assets/icons/figma.svg',
         },
         {
             _id:'7',
@@ -67,6 +67,18 @@ const data = {
             _id:'10',
             name: 'GitHub',
             image: '/assets/icons/github.svg',
+            
+        },
+        {
+            _id:'11',
+            name: 'Unity',
+            image: '/assets/icons/unity.svg',
+            
+        },
+        {
+            _id:'12',
+            name: 'Bootstrap',
+            image: '/assets/icons/bootstrap.svg',
             
         },
     ],

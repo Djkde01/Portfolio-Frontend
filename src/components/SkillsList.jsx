@@ -1,8 +1,6 @@
 import React from 'react'
 import Skill from './Skill'
 
-import icon from '../assets/media/atomo.svg';
-
 import '../styles/SkillsList.css';
 
 const SkillsList = ({skills}) => {

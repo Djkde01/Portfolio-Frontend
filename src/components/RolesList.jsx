@@ -2,7 +2,6 @@ import React from 'react'
 
 import RoleCard from './RoleCard';
 
-import icon from '../assets/media/atomo.svg';
 import '../styles/RolesList.css';
 
 const RolesList = ({roles}) => {
