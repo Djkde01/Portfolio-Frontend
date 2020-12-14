@@ -17,7 +17,7 @@
   width: 430px;
 }
 .first-primary {
-  background-color: var(--first);
+  background-color: var(--first-dark);
   color: var(--light);
 }
 .first-primary:hover {
@@ -48,7 +48,7 @@
   font-size: 18px;
 }
 .second-primary {
-  background-color: var(--first);
+  background-color: var(--first-dark);
   color: var(--light);
 }
 .second-secondary {

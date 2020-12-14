@@ -38,7 +38,7 @@ const data = {
         {
             _id:'5',
             name: 'SASS',
-            image: '/assets/icons/.svg',
+            image: '/assets/icons/sass.svg',
         },
         {
             _id:'6',
