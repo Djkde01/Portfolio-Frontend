@@ -7,8 +7,8 @@ const ProjectRoles = ({roles}) => {
     return (
         <span className="project-roles">
         {
-            roles.map((role)=>(
-                <Button type="second" color="alternative" text={role}/>
+            roles.map((role,index)=>(
+                <Button key={index} type="second" color="alternative" text={role}/>
             ))
         }
         </span>

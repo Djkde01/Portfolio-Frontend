@@ -6,11 +6,11 @@ import '../styles/ProjectCard.css';
 import ProjectRoles from './ProjectRoles';
 import ProjectSkills from './ProjectSkills';
 
-const ProjectCard = ({projectName,projectRoles,projectSkills}) => {
+const ProjectCard = ({projectName,projectImage,projectRoles,projectSkills}) => {
     return (
         <div className="projectcard">
             <span className="projectcard-image">
-                <img alt="Project overview"/>
+                <img src={projectImage} alt="Project overview"/>
             </span>
             <div className="projectcard-description">
                 <h3>{projectName}</h3>

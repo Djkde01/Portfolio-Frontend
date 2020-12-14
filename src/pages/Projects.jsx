@@ -16,7 +16,7 @@ const Projects = () => {
             <main className="main-projects">
             {
                 projectsList.map((project)=>(
-                    <ProjectCard key={project._id} projectName={project.name} projectRoles={project.roles} projectSkills={project.skillIds}/>
+                    <ProjectCard key={project._id} projectImage={project.image} projectName={project.name} projectRoles={project.roles} projectSkills={project.skillIds}/>
                 ))
             }
             </main>

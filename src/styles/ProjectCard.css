@@ -7,10 +7,10 @@
 .projectcard-image {
   height: 300px;
   background-color: var(--third);
+  overflow: hidden;
 }
 .projectcard-image img {
   width: 666px;
-  object-fit: cover;
 }
 .projectcard-description,
 .projectcard-skills {
@@ -22,6 +22,7 @@
 }
 .projectcard-description {
   align-items: center;
+  text-align: center;
   gap: 16px;
   margin: 16px auto;
   color: var(--light);

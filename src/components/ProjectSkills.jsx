@@ -8,8 +8,8 @@ const ProjectSkills = ({skillID}) => {
     return (
         <div className="projectcard-skills">
         {
-            skillID.map((id)=>(
-                    <Skill type="small" skillName={skillsList[id].name} skillIcon={skillsList[id].image}/>    
+            skillID.map((id,index)=>(
+                    <Skill key={index} type="small" skillName={skillsList[id].name} skillIcon={skillsList[id].image}/>    
                 ))
         }
         </div>
