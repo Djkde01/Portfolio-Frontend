@@ -6,16 +6,19 @@ import Button from '../components/Button';
 
 import '../styles/Projects.css';
 
+import data from '../data.js'
+const projectsList=data.projects;
+
 const Projects = () => {
     return (
         <div>
             <Header/>
             <main className="main-projects">
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+            {
+                projectsList.map((project)=>(
+                    <ProjectCard key={project._id} projectName={project.name} projectRoles={project.roles} projectSkills={project.skillIds}/>
+                ))
+            }
             </main>
                 <h2>Let’s create something big!</h2>
                 <div className="skills-list">

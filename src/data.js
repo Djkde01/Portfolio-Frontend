@@ -82,6 +82,38 @@ const data = {
             
         },
     ],
+    projects:[
+        {
+            _id:1,
+            name:'Event5',
+            roles:['Front-end','UI Design'],
+            skillIds:[2,4,5,6,7,8,9],
+        },
+        {
+            _id:2,
+            name:'Ceol',
+            roles:['Front-end','UI Design'],
+            skillIds:[2,4,5,6,7,8,9],
+        },
+        {
+            _id:3,
+            name:'Shipwrecked',
+            roles:['Game Design','Programming'],
+            skillIds:[10,6,8],
+        },
+        {
+            _id:4,
+            name:'Pinterest Clone',
+            roles:['Front-end'],
+            skillIds:[0,1,8,9],
+        },
+        {
+            _id:5,
+            name:'Simpsons Quotes',
+            roles:['Front-end'],
+            skillIds:[3,8,9,11],
+        },
+    ],
 };
 
 export default data;
