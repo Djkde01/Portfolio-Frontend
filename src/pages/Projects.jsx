@@ -22,7 +22,7 @@ const Projects = () => {
             </main>
                 <h2>Let’s create something big!</h2>
                 <div className="skills-list">
-                    <Button text="Contact me" link="/" type="principal" color="primary"/>
+                    <Button text="Contact me" link="mailto:me@djkde.com" type="principal" color="primary"/>
                 </div>
             <Footer/>
         </div>
