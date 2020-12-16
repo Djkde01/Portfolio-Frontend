@@ -3,7 +3,7 @@ const data = {
         {
             _id:'1',
             name:'Design',
-            description:"I design beatiful and simple things.\nFocused on the user and the message of your brand or product.\r Things I enjoy designing: UX, UI, Web, Mobile, Logos.",
+            description:"I design beatiful and simple things.\nFocused on the user and the message of your brand or product.\n Things I enjoy designing: UX, UI, Web, Mobile, Logos.",
             icon:'/assets/icons/design.svg',
         },
         {

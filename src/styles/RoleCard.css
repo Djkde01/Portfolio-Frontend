@@ -1,7 +1,7 @@
 .rolecard {
   display: grid;
   grid-template-columns: 150px 1fr;
-  width: 401px;
+  width: 470px;
   padding: 24px 18px;
   border-radius: 30px;
   background-color: var(--third);
@@ -18,10 +18,12 @@
   border-radius: 20px;
 }
 .rolecard-image img {
-  height: 130px;
+  height: 100px;
 }
 .rolecard-description > * {
   margin: 0 20px 8px;
+  white-space: pre-line;
+  vertical-align: bottom;
 }
 @media (max-width: 414px) {
   .rolecard {
@@ -32,5 +34,12 @@
   .rolecard-description > h5 {
     margin: 8px 16px;
     text-align: center;
+  }
+  .rolecard-image {
+    height: 130px;
+    width: 130px;
+  }
+  .rolecard-image img {
+    height: 80px;
   }
 }
