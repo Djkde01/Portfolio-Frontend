@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Switch, withRouter} from 'react-router-dom';
 import Transition from './components/Transition';
+import ScrollToTop from "./hooks/ScrollToTop";
 import About from './pages/About';
 import Contact from "./pages/Contact";
 import Landing from './pages/Landing';
@@ -24,12 +25,14 @@ export default withRouter (function App ({ location }) {
   return (
     <>
       <Transition position={position}/>
-      <Switch>
-        <Route exact path="/" component={Landing}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/projects" component={Projects}/>
-        <Route exact path="/contact" component={Contact}/>
-      </Switch>
+      <ScrollToTop>
+        <Switch>
+          <Route exact path="/" component={Landing}/>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/contact" component={Contact}/>
+        </Switch>
+      </ScrollToTop>
     </>
   );
 });

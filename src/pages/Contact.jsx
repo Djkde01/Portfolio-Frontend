@@ -21,7 +21,7 @@ const Contact = () => {
                         I’d love to meet up with you to discuss your venture and potential collaborations.
                         </p>
                     </div>
-                        <h1>You can find me on</h1>
+                    <h4>You can find me on</h4>
                     <div className="contact-info-links">
                         {
                             icons.map((icon)=>(
