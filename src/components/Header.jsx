@@ -29,7 +29,7 @@ const Header = () => {
                         <Link to="/projects">Projects</Link>
                     </li>
                     <li className="header-menu--item">
-                        <a href="mailto:me@djkde.com">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             <div className={click ? "pencet Diam" : "pencet"} onClick={handleClick}>

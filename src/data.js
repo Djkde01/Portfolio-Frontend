@@ -84,6 +84,13 @@ const data = {
     ],
     projects:[
         {
+            _id:0,
+            name:'CyberShai',
+            image: '/assets/media/cybershaipicture.png',
+            roles:['Front-end','UI Design'],
+            skillIds:[2,4,5,7,8,9],
+        },
+        {
             _id:1,
             name:'Event5',
             image: '/assets/media/event5picture.png',
@@ -117,6 +124,32 @@ const data = {
             image: '/assets/media/quotespicture.png',
             roles:['Front-end'],
             skillIds:[3,8,9,11],
+        },
+    ],
+    contactLinks:[
+        {
+            _id: 1,
+            name: 'me@djkde.com',
+            link: 'mailto:me@djkde.com',
+            icon: '/assets/icons/mail.svg',
+        },
+        {
+            _id: 2,
+            name: 'Twitter: @djkde' ,
+            link: 'https://twitter.com/djkde',
+            icon: '/assets/icons/twitter.svg',
+        },
+        {
+            _id: 3,
+            name: 'GitHub: Djkde01' ,
+            link: 'https://github.com/Djkde01',
+            icon: '/assets/icons/github.svg',
+        },
+        {
+            _id: 4,
+            name: 'LinkedIn: Djkde' ,
+            link: 'https://linkedin.com/in/Djkde',
+            icon: '/assets/icons/linkedin.svg',
         },
     ],
 };
